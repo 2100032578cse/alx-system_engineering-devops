@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-#fizzbuzz
-
+#fizzbuzz display
 n=1
 
 while((n<=100))
