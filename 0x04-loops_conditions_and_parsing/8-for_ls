@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #displays the content of the current directory in list format
 
-listing=$(ls)
-for i in $listing
+mylist=$(ls)
+
+for i in $mylist;
 do
-	echo"$i" | cut -d '-' -f2
+  echo "$i" | cut -d '-' -f2
 done
