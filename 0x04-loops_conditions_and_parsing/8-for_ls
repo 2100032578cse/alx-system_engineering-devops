@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#displays the content of the current directory in list format
+#displays the content of the current directory in list formt
 
 mylist=$(ls)
 
