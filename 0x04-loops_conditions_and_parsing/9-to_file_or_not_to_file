@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
-#info to display
+#display information
 
-name="School"
+fname="School"
 
-if [ -e $name ]
+if [ -e $fname ]
 then
     echo "School file exists"
-    if [ -s $name ]
+    if [ -s $fname ]
     then
         echo "School file is not empty"
     else
         echo "School file is empty"
     fi
-    if [ -f $name ]
+    if [ -f $fname ]
     then
         echo "School is a regular file"
     fi
