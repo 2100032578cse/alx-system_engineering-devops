@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#specify, start stop and restart of process
+while true
+do
+	echo "I am alive!"
+	sleep 2
+done
