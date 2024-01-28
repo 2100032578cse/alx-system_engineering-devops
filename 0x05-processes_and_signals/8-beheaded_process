@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+#kills process on task 7
+
+pkill -SIGKILL -f 7-highlander
