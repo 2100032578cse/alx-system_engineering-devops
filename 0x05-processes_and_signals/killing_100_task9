@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+kill -SIGQUIT "$(pgrep -f 100-process_and_pid_file)"
