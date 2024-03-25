@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 #scriptw for running server
 
+# ssh agent
 eval $("ssh-agent")
 
+# the file path
 ssh-add ~/.ssh/school
+
+# credentials 
 ssh ubuntu@100.25.222.64
