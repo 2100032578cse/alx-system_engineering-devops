@@ -1,0 +1,7 @@
+#server connection without password
+
+Host 515924-web-01
+User ubuntu
+HostName 100.26.170.158
+IdentityFile ~/.ssh/school
+PasswordAuthentication no
