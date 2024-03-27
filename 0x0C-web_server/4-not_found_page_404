@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#scripts for installing nginx
+#scripts for redirecting page to 404 page
 
 sudo apt-get update -y -qq
 sudo apt-get install nginx -y
