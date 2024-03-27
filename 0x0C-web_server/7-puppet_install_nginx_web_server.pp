@@ -1,4 +1,6 @@
 #Install Nginx web server (w/ Puppet)
+#When querying Nginx at its root / with a GET request (requesting a page)
+#using curl, it must return a page that contains the string Hello World!
 
 exec {'installation':
 provider => shell,
