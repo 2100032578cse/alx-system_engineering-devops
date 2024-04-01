@@ -40,4 +40,4 @@ sudo systemctl start haproxy
 # Enable HAProxy to start on boot
 sudo systemctl enable haproxy
 
-echo "HAProxy success."
+echo "HAProxy success config"
