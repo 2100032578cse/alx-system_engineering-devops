@@ -41,4 +41,4 @@ echo "server {
 # Restart Nginx to apply changes
 sudo service nginx restart
 
-echo -e "\nWeb server configured successfully.\n"
+echo -e "\ndone\n"
