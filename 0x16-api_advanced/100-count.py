@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""prints a sorted count of given keywords"""
+"""prints a sorted count of given keywords(anycase)"""
 
 import requests
 
