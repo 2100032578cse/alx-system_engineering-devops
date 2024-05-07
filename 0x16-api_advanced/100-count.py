@@ -46,8 +46,3 @@ def count_words(subreddit, word_list, after="", word_dict={}):
         return None
 
     count_words(subreddit, word_list, aft, word_dict)
-        hot_list.append(c.get("data").get("title"))
-
-    if after is not None:
-        return recurse(subreddit, hot_list, after, count)
-    return hot_list
