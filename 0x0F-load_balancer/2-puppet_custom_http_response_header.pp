@@ -1,4 +1,4 @@
-#setp ngnix with n ubunt
+#setting up ngnix with the new ubuntu server`
 
 exec { 'update system':
         command => '/usr/bin/apt-get update',
